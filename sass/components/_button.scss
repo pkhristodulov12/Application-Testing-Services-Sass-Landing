@@ -1,0 +1,48 @@
+.button {
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  padding: 13px 80px;
+  border-radius: 15px;
+  border: 1px solid #5A8488;
+  background: linear-gradient(
+                  180deg,
+                  rgba(126, 168, 170, 0.5) 0%,
+                  rgba(0, 15, 32, 0.9) 100%
+  );
+  color: #fff;
+  box-sizing: border-box;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.button-submit {
+  &::first-letter {
+    text-transform: uppercase;
+  }
+
+  padding: 13px 0;
+  background: linear-gradient(
+                  180deg,
+                  #88FEE7 0%,
+                  #7ED5C5 100%
+  );
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  border-radius: 15px;
+  border: 1px solid #5A8488;
+  box-sizing: border-box;
+  color: $color-dark-900;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+
+.button-wrapper {
+  padding-top: 54px;
+  text-align: center;
+}

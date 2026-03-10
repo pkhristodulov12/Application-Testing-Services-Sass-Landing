@@ -1,0 +1,9 @@
+.break-line {
+
+  display:block;
+
+  @media (max-width:$bp-lg){
+    display:inline;
+  }
+
+}

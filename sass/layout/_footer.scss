@@ -1,0 +1,116 @@
+.footer {
+  margin-top: 320px;
+  padding: 126px 100px 51px;
+  background: linear-gradient(135deg, #1F2834 0%, #0B151F 100%);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: $color-white;
+  position: relative;
+
+
+  @media screen and (max-width: 1100px) {
+    padding: 24px;
+    margin-top: 24px;
+  }
+
+  @media screen and (max-width: 560px) {
+    padding: 12px;
+  }
+
+  &__badge {
+    margin-top: 24px;
+    display: inline-block;
+    color: #88FEE7;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+
+  &__contact {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+    p {
+      padding-top: 15px;
+    }
+  }
+
+  &__top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    align-items: baseline;
+    gap: 80px;
+    @media screen and (max-width: 560px) {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+
+  &__list li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color-text-secondary;
+    padding-top: 24px;
+    box-sizing: border-box;
+
+    a {
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+
+  &__bottom {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    @media screen and (max-width: 560px) {
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-start;
+    }
+  }
+
+  &__certificates {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__icons{
+    display:flex;
+    justify-content: flex-end;
+    gap:12px;
+
+    @media screen and (max-width: 560px) {
+      align-items: start;
+      justify-content: flex-start;
+    }
+
+    a {
+      width: 31px;
+      height: 31px;
+      background: $color-white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &__copyright {
+    padding-top: 18px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: $color-white;
+  }
+}
