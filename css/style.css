@@ -978,6 +978,9 @@ body {
 .swiper-button-prev::after {
   display: none; }
 
+* {
+  outline: 1px solid red; }
+
 .footer {
   margin-top: 320px;
   padding: 126px 100px 51px;
