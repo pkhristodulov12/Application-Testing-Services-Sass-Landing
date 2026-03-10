@@ -304,7 +304,6 @@ a {
     .main__logos__track {
       display: flex;
       gap: 80px;
-      width: max-content;
       animation: scroll 30s linear infinite; }
 
 .services {
