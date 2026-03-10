@@ -45,4 +45,8 @@
 .button-wrapper {
   padding-top: 54px;
   text-align: center;
+
+  @media screen and (max-width: $bp-xs) {
+    padding-top: 24px;
+  }
 }

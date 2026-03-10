@@ -7,6 +7,10 @@
 
   &__title {
     text-transform: uppercase;
+
+    @media screen and (max-width: $bp-xs){
+      font-size: 20px;
+    }
   }
 
   &__label {
@@ -41,7 +45,7 @@
         border: none;
         color: white;
         font-size: 18px;
-        width: auto;
+        width: 100%;
         cursor: pointer;
       }
     }
