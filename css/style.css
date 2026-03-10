@@ -962,7 +962,7 @@ a {
   .testimonial-card__text {
     margin-bottom: 24px; } }
 
-body {
+html, body {
   overflow-x: hidden; }
 
 .testing-process__item {
@@ -977,9 +977,6 @@ body {
 .swiper-button-next::after,
 .swiper-button-prev::after {
   display: none; }
-
-* {
-  outline: 1px solid red; }
 
 .footer {
   margin-top: 320px;
